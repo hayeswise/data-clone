@@ -10,6 +10,8 @@
  //@todo: change refs into a map
  //@todo: add this as a prototype to Object
  //@todo: provide a minified version
+ //@todo: allow ignore to be a single string
+ //@todo: allow ignore to be an array of regular expression
 function dataClone(obj, ignore, refs) {
     var copy = obj,
         firstTime,

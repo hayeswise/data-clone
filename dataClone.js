@@ -45,7 +45,6 @@ function dataClone(obj, filter, depth, refs) {
     if (obj && typeof obj === "object") {
         copy = Object.prototype.toString.call(obj) === "[object Array]" ? [] : Object.create(null);
         keys = Object.keys(obj);
-        debugger;
         keys.forEach(function(name) {
             var subDepth = depth;
             if (name.substr(0, 1) !== "_" && typeof copy[name] !== "function" && filter.indexOf(name) === -1) {

@@ -4,11 +4,11 @@
  * Creates a deep clone of the object's data. By default, any properties begining with an underscore or are functions
  * are ignored. Only the object's own enumerable properties are considered - properities in the prototype chain are 
  * ignored. The ignored types and ignored properties can be changed by pushing new values into, or completely replacing
- * the values of, properites IGNORE_TYPES and IGONRE_PROPERTY_NAMES.
+ * the values of, properites IGNORE_TYPES and IGNORE_PROPERTY_NAMES.
  * @property MAX_DEPTH {Number} Set this to a positive number greater than or equal to 1.  Default value is 5.
  *  If the value is invalid, MAX_DEPTH is set to the default value.
  * @property IGNORE_TYPES {String[]} Array of JavaScript types to ignore.  Default value is ["function"].
- * @property IGONRE_PROPERTY_NAMES {String[]} Array of regular expressions to specify which object property 
+ * @property IGNORE_PROPERTY_NAMES {String[]} Array of regular expressions to specify which object property 
  *  names to ignore.  Default value is ["^_"] which is to ignore any properties beginning with an underscore.
  * @param {Object} obj The object to make a deep data clone of.
  * @param {Number} [depth] An optional current cloning depth value.  Typically not used.

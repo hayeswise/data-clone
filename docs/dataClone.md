@@ -15,8 +15,8 @@ of, properites IGNORE_TYPES and IGNORE_PROPERTY_NAMES respectively.
 | Param | Type | Description |
 | --- | --- | --- |
 | obj | <code>Object</code> | The object to make a deep data clone of. |
-| [depth] | <code>Number</code> | An optional current cloning depth value.  Typically not used. |
-| [refs] | <code>Array</code> | An optional array of object references used to track circular references.  Typically not used. |
+| [depth] | <code>Number</code> | An optional current cloning depth value.  Typically not used by the intial caller.  The function is recursive and calls its self with this parameter. |
+| [refs] | <code>Map</code> | An optional map of object-to-object-paths used to track circular references.  The map is keyed with an object and the stored values is a dot notation string representing the path to the object (e.g., "self.firstName").  Typically not used by the intial caller.  The function is recursive and calls its self with this parameter. |
 
 **Properties**
 

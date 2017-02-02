@@ -59,3 +59,8 @@ s = JSON.stringify(dc);
 
 # Documentation
 See [dataClone API](https://github.com/hayeswise/data-clone/blob/master/docs/dataClone.md).
+
+# License
+MIT License
+
+(c) 2017 Brian S Hayes ("Hayeswise")

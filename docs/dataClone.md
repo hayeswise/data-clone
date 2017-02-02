@@ -1,7 +1,11 @@
 <a name="dataClone"></a>
 
 ## dataClone ⇒ <code>Object</code>
-Creates a deep clone of the object's data. By default, any properties begining with an underscore or are functionsare ignored. Only the object's own enumerable properties are considered - properities in the prototype chain are ignored. The ignored types and ignored properties can be changed by pushing new values into, or completely replacingthe values of, properites IGNORE_TYPES and IGNORE_PROPERTY_NAMES.
+Creates a deep clone of the object's data.  The resultant object and any contained objects are based on an object 
+with no properties (a null object).  By default, any properties begining with an underscore or are functions are 
+ignored. Only the object's own enumerable properties are considered - properities in the prototype chain are ignored.
+The ignored types and ignored propertiescan be changed by pushing new values into, or completely replacing the values
+of, properites IGNORE_TYPES and IGNORE_PROPERTY_NAMES respectively.
 
 **Kind**: global variable  
 **Returns**: <code>Object</code> - An object that is a deep "data" clone of the object's data.  

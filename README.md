@@ -1,5 +1,3 @@
-# deep-data-clone
-JavaScript function for creating a deep clone of an object, ignoring functions, properties beginning with _
 # data-clone
 Creates a deep clone of the object's data.  The resultant object and any contained objects are based on an object 
 with no properties (a null object).  By default, any properties begining with an underscore or are functions are 
@@ -22,6 +20,7 @@ var obj = {
 obj.a.more_a = obj.a;
 obj.b.more_a = obj.a;
 
+//var s = JSON.stringify(obj);
 //=> Uncaught TypeError: Converting circular structure to JSON
 //     at JSON.stringify (<anonymous>)
 

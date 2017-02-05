@@ -60,6 +60,12 @@ s = JSON.stringify(dc);
 # Documentation
 See [dataClone API](https://github.com/hayeswise/data-clone/blob/master/docs/dataClone.md).
 
+# Acknowledgements
+A thanks to:
+* [JSHint] (http://jshint.com/)
+* [Dan's Tools Javascript Minifier](http://www.danstools.com/javascript-minify/)
+* [UglifyJS2](https://github.com/mishoo/UglifyJS2)
+
 # License
 MIT License
 

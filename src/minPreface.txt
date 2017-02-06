@@ -1,0 +1,6 @@
+/**
+ * @@FILENAME@@
+ * @author Brian S Hayes ("Hayeswise")
+ * @license MIT License, Copyright (c) 2017 Brian S Hayes ("Hayeswise")
+ * @see {@link @@WEBSITE@@}
+ */

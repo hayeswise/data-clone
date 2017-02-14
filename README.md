@@ -58,7 +58,7 @@ s = JSON.stringify(dc);
 ```
 
 # Documentation
-See [dataClone API](https://github.com/hayeswise/data-clone/blob/master/docs/dataClone.md).
+See [dataClone API](https://github.com/hayeswise/data-clone/blob/master/docs/wise-dataClone.md).
 
 # Acknowledgements
 A thanks to:

@@ -1,5 +1,6 @@
+<a href="hhttps://github.com/hayeswise/data-clone/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 # data-clone
-<a href="hhttps://github.com/hayeswise/data-clone/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/license-MIT-blue.svg"></a><br/>
+
 <img align="left" src="https://github.com/hayeswise/data-clone/raw/master/docs/data-clone-logo.png"/> Creates a deep clone of the object's data.  The resultant object and any contained objects are based on an object 
 with no properties (a null object).  By default, any properties begining with an underscore or are functions are 
 ignored. Only the object's own enumerable properties are considered - properities in the prototype chain are ignored.

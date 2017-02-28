@@ -21,8 +21,8 @@ var obj = {
 };
 obj.a.more_a = obj.a;
 obj.b.more_a = obj.a;
-
-//var s = JSON.stringify(obj);
+var s;
+s = JSON.stringify(obj);
 //=> Uncaught TypeError: Converting circular structure to JSON
 //     at JSON.stringify (<anonymous>)
 
